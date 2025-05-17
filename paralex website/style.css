@@ -1,0 +1,156 @@
+/* html,
+body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #666;
+} */
+
+.pimg1 {
+    background-image: url(image1.png);
+    min-height: 100%;
+
+}
+
+.pimg2 {
+    background-image: url(image2.png);
+    min-height: 400px;
+
+}
+
+.pimg3 {
+    background-image: url(image3.png);
+    min-height: 400px;
+
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 8px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.textbg {
+    background: #666;
+    color: #fff;
+    padding: 20px;
+}
+
+.section {
+    text-align: center;
+    padding: 40px 90px;
+
+}
+
+.sec-light {
+    color: #fff;
+    background-color: #282e34;
+    padding-top: 30px;
+}
+
+.sec-dark {
+    background-color: #282e34;
+    color: #fff;
+}
+
+
+
+/* Part 2 Parallel  */
+
+
+/* 
+
+*/
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #666;
+}
+
+.img1 {
+    background-image: url(cat.jpg);
+    min-height: 100%;
+}
+
+.img2 {
+    background-image: url(dog.jpg);
+    min-height: 400px;
+
+}
+
+.img3 {
+    background-image: url(horse3.jpg);
+    min-height: 400px;
+}
+
+.img1,
+.img2,
+.img3 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.text1 {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 8px;
+    /* padding: 20px; */
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+
+.bgtext {
+    background: #666;
+    color: aliceblue;
+    padding: 20px;
+
+
+
+}
+
+.sect {
+    padding: 40px 70px;
+    text-align: center;
+}
+
+.sect-light {
+    background-color: #666;
+    color: aliceblue;
+}
+
+.name {
+    color: azure;
+    font-size: 25px;
+}
